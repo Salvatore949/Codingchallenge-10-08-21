@@ -1,0 +1,92 @@
+
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+body{
+  background:url("booleanfile/background.jpg");
+  background-size:cover;
+}
+
+/*Container*/
+
+.container{
+  background-color:rgb(0, 0, 0,0.4);
+  width:62%;
+  margin:auto;
+  margin-top:20px;
+  border-radius:2%;
+  padding:70px 80px 70px 80px;
+  font-family:sans-serif;
+  color:white;
+}
+
+/*Logo e titolo*/
+
+header{
+  text-align:center;
+}
+
+header > #logo{
+  height:90px;
+  margin-top:10px;
+}
+
+header > h1{
+  color:rgba(0,221,0,255);
+}
+
+/*Opzioni d'uso (navbar)*/
+
+nav{
+  text-align:center;
+  background-color:rgba(0,221,0,255);
+  padding:10px;
+  margin:3px 0px;
+}
+
+nav > .button{
+  padding:0 3px;
+}
+
+/*Modelli disponibili (main)*/
+
+main > .choise {
+  margin:20px 0;
+  line-height:25px;
+}
+
+.choise > .checkbox{
+  margin-right:6px;
+}
+
+/*Stato di carica*/
+
+ /*Gino22*/
+
+.choise > #yellowbar{
+  width:55%;
+  height:20px;
+  background-color:rgba(245,180,83,255);
+  border-radius:5px;
+}
+
+ /*Mike24*/
+
+.choise > #greenbar{
+  width:87%;
+  height:20px;
+  background-color:rgba(30,195,30,255);
+  border-radius:5px;
+}
+
+ /*Fede154*/
+
+.choise > #redbar{
+  width:30%;
+  height:20px;
+  background-color:rgba(190,65,65,255);
+  border-radius:5px;
+}
